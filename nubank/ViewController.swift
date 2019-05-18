@@ -67,6 +67,10 @@ class ViewController: UIViewController {
         arrowImageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(arrowTapped)))
         addPanGesture(view: cardView)
         view.bringSubviewToFront(cardView)
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
         centerYInitial = cardView.center.y
         collectionCenterY = collectionView.center.y
     }
