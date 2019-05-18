@@ -2,4 +2,4 @@
 
 Projeto desenvolvido em Swift 4.
 
-![](nubank.gif)
+<img src="https://github.com/zionix357/nubank/blob/master/nubank.gif" width="50%" height="50%">
